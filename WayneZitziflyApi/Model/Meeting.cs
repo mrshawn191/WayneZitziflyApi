@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace WayneZitziflyApi.Model
@@ -17,8 +18,20 @@ namespace WayneZitziflyApi.Model
         public MeetingType MeetingType { get; set; }
 
         [Required]
+        public Address Address { get; set; }
+
+        [Required]
+        public User Owner { get; set; }
+
+        public List<User> AcceptedUsers { get; set; }
+
+        [Required]
+        public DateTimeOffset StartTime { get; set; }
+
+        [Required]
+        public DateTimeOffset EndTime { get; set; }
+
+        [Required]
         public DateTimeOffset CreatedAt { get; set; }
     }
-
-
 }
