@@ -1,0 +1,10 @@
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.deps.json
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.runtimeconfig.json
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.runtimeconfig.dev.json
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.dll
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.pdb
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.csprojResolveAssemblyReference.cache
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.csproj.CoreCompileInputs.cache
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.AssemblyInfo.cs
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.dll
+/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.pdb

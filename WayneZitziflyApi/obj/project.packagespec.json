@@ -1,0 +1,48 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/WayneZitziflyApi.csproj",
+    "projectName": "WayneZitziflyApi",
+    "projectPath": "/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/WayneZitziflyApi.csproj",
+    "outputPath": "/Users/Jun/RiderProjects/WayneZitziflyApi/WayneZitziflyApi/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "1.1.2"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Logging.Debug": {
+          "target": "Package",
+          "version": "1.1.1"
+        }
+      }
+    }
+  }
+}
