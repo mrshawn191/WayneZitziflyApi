@@ -15,6 +15,12 @@ namespace WayneZitziflyApi.Controllers
             return new List<Meeting>();
         }
 
+        [HttpGet]
+        public IActionResult GetMeeting()
+        {
+            return Ok();
+        }
+
         [HttpPost]
         public IActionResult CreateMeeting()
         {
