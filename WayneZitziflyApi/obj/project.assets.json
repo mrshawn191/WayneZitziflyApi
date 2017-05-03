@@ -10070,12 +10070,6 @@
         }
       }
     },
-    "dependencies": {
-      "Microsoft.EntityFrameworkCore.SqlServer": {
-        "target": "Package",
-        "version": "[1.1.1, )"
-      }
-    },
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
@@ -10092,6 +10086,10 @@
             "version": "1.1.2"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "1.1.1"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "1.1.1"
           },

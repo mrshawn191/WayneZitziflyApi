@@ -95,3 +95,18 @@ WayneZitziflyApi/wwwroot/
 .idea/
 
 .idea/.idea.WayneZitziflyApi/.idea/vcs.xml
+
+.obj
+
+
+WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.csproj.CoreCompileInputs.cache
+
+WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.dll
+
+WayneZitziflyApi/obj/Debug/netcoreapp1.1/WayneZitziflyApi.pdb
+
+WayneZitziflyApi/bin/Debug/netcoreapp1.1/WayneZitziflyApi.pdb
+
+*.dll
+
+*.pdb

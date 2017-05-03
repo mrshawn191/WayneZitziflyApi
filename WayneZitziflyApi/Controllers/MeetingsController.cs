@@ -6,23 +6,29 @@ using WayneZitziflyApi.Model;
 
 namespace WayneZitziflyApi.Controllers
 {
-    [Route("api/[controller]")]
     public class MeetingsController : Controller
     {
-        [HttpGet]
+        private readonly IMeetingRepository _repository;
+
+        public MeetingsController(IMeetingRepository repository)
+        {
+            _repository = repository;
+        }
+
+        [HttpGet, Route("api/meeting/all")]
         public IEnumerable<Meeting> GetAllMeetings()
         {
             return new List<Meeting>();
         }
 
-        [HttpGet]
-        public IActionResult GetMeeting()
+        [HttpGet, Route("api/meeting/{id}")]
+        public IActionResult GetMeeting(int id)
         {
-            return Ok();
+            return Ok(id);
         }
 
-        [HttpPost]
-        public IActionResult CreateMeeting()
+        [HttpPost, Route("api/meeting")]
+        public IActionResult CreateMeeting(CreateMeetingRequest request)
         {
             return Ok("");
         }
