@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using WayneZitziflyApi.Repositories;
 
 namespace WayneZitziflyApi
 {
@@ -30,8 +27,8 @@ namespace WayneZitziflyApi
         {
             // Add framework services.
 
-            services.AddDbContext<MeetingContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<MeetingContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IMeetingRepository, MeetingRepository>();
             services.AddMvc();

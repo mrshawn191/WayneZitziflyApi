@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WayneZitziflyApi.Model;
+using WayneZitziflyApi.Repositories;
 
 namespace WayneZitziflyApi.Controllers
 {

@@ -1,13 +1,13 @@
 # WayneZitziflyApi
 
 
-# API built in .NET CORE
+* API built in .NET CORE
 
-# DIP 
+* DIP 
 
-# Loggly handled by Kafka
+* Loggly handled by Kafka
 
-# Docker
+* Docker
 
-# For persistance, sql with EntityFramework 6
+* For persistance, sql with EntityFramework 6
 

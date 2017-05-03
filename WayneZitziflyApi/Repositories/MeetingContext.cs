@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WayneZitziflyApi.Model;
 
-namespace WayneZitziflyApi
+namespace WayneZitziflyApi.Repositories
 {
     public class MeetingContext : DbContext
     {

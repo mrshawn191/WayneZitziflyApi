@@ -2,7 +2,7 @@
 using System.Linq;
 using WayneZitziflyApi.Model;
 
-namespace WayneZitziflyApi
+namespace WayneZitziflyApi.Repositories
 {
     public interface IMeetingRepository
     {
